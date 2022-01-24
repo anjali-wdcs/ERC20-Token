@@ -63,7 +63,7 @@ contract LYCToken is ERC20Interface, SafeMath {
         name = "LYC NodeCoin";
         decimals = 2;
         _totalSupply = 100000;
-        balances[0x2692eDaacfE65Cfc074264601Dcd273e90748c9C] = _totalSupply;  // used Ropsten TestNet
+        balances[0x2692eDaacfE65Cfc074264601Dcd273e90748c9C] = _totalSupply;  // used Ropsten TestNet(address)
         emit Transfer(address(0), 0x2692eDaacfE65Cfc074264601Dcd273e90748c9C, _totalSupply);
     }
  
